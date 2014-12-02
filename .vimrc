@@ -22,6 +22,7 @@ NeoBundle 'Shougo/neosnippet-snippets'
 NeoBundle 'Shougo/unite.vim'
 NeoBundle 'Shougo/neosnippet.vim'
 NeoBundle 'scrooloose/nerdtree'
+NeoBundle 'mattn/emmet-vim'
 
 
 filetype plugin indent on
