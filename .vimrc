@@ -4,6 +4,7 @@ set expandtab
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
+
 syntax on
 
 filetype plugin indent off
@@ -24,8 +25,14 @@ NeoBundle 'Shougo/unite.vim'
 NeoBundle 'Shougo/neosnippet.vim'
 NeoBundle 'scrooloose/nerdtree'
 NeoBundle 'mattn/emmet-vim'
+NeoBundle 'fatih/vim-go'
 
 
 filetype plugin indent on
 
 call neobundle#end()
+
+
+let g:go_highlight_functions = 1
+let g:go_highlight_methods = 1
+let g:go_highlight_structs = 1
